@@ -248,6 +248,9 @@ footer a{
     margin-right: 10px;
 }
 @media (max-width:576px){
+    .container{
+        padding: 1rem 3rem;
+    }
     #Large{
         display: none;
     }
@@ -270,7 +273,6 @@ footer a{
         border-radius: 5px;
     }
     #Main .container{
-        padding: 1rem 3rem;
         text-align: center;
     }
     #Main .left{
@@ -292,9 +294,6 @@ footer a{
     #Second .all{
         display: block;
     }
-    #Second .container{
-        padding: 1rem 3rem;
-    }
     #Second .left{
         width: 100%;
         margin-bottom: 20px;
@@ -302,15 +301,9 @@ footer a{
     #Second .right .box{
         width: 100%;
     }
-    #Third .container{
-        padding: 1rem 3rem;
-    }
     #Third p{
         font-size:calc(1.275rem + 0.3vw);
         width: 100%;
-    }
-    #Blog .container{
-        padding: 1rem 3rem;
     }
     #Blog .all-box{
         flex-wrap: wrap;
@@ -321,9 +314,6 @@ footer a{
     #Blog .head{
         text-align: center;
         width: 100%;
-    }
-    #Search .container{
-        padding: 1rem 3rem;
     }
     #Search .all{
         flex-wrap: wrap;
@@ -336,6 +326,7 @@ footer a{
         width: 100%;
     }
     footer .all{
-       flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
