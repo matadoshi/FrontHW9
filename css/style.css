@@ -270,7 +270,6 @@ footer a{
         border-radius: 5px;
     }
     #Main .container{
-        width: 100%;
         padding: 1rem 3rem;
         text-align: center;
     }
@@ -294,7 +293,6 @@ footer a{
         display: block;
     }
     #Second .container{
-        width: 100%;
         padding: 1rem 3rem;
     }
     #Second .left{
@@ -305,7 +303,6 @@ footer a{
         width: 100%;
     }
     #Third .container{
-        width: 100%;
         padding: 1rem 3rem;
     }
     #Third p{
@@ -313,7 +310,6 @@ footer a{
         width: 100%;
     }
     #Blog .container{
-        width: 100%;
         padding: 1rem 3rem;
     }
     #Blog .all-box{
@@ -327,7 +323,6 @@ footer a{
         width: 100%;
     }
     #Search .container{
-        width: 100%;
         padding: 1rem 3rem;
     }
     #Search .all{
